@@ -1,0 +1,34 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+
+# IDE and OS settings
+.vscode/
+.idea/
+.DS_Store
+
+# Video files
+*.mp4
+*.avi
+*.mov
+*.mkv
+videos/
+
+# Model weights
+*.pt
+*.pth
+*.onnx
+*.engine
+*.weights
+weights/
+yolo26n-sem-ade20k.pt
+yolo26n-seg.pt
