@@ -2,7 +2,7 @@
 
 This repository contains my work on real-time traversable path detection for autonomous navigation .
 
-The main goal of this project is to reliably detect drivable/walkable paths directly ahead of a vehicle or robot using a standard camera. It uses a **hybrid approach** that combines a lightweight YOLO semantic segmentation model with classical computer vision techniques (LAB color distance, Canny edge barriers, texture filtering, and HSV saturation). 
+The main goal of this project is to reliably detect drivable/walkable paths directly ahead of a UGV using a standard camera. It uses a **hybrid approach** that combines a lightweight YOLO semantic segmentation model with classical computer vision techniques (LAB color distance, Canny edge barriers, texture filtering, and HSV saturation). 
 
 Running deep learning segmentation on every frame can be heavy on a CPU, so this system runs YOLO every few frames to anchor the prediction, while fast classical computer vision algorithms run on every frame to keep the path outline smooth, accurate, and responsive.
 
